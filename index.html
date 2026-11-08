@@ -1,0 +1,26 @@
+<!doctype html><html lang="id"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Belajar Python</title><link rel="stylesheet" href="style.css"></head><body>
+<div id="toast" hidden></div>
+<section id="login"><div class="box">
+<h1>Belajar Python</h1>
+<p>Di web ini kode harus <b>diketik sendiri</b>. Menempel kode dari luar akan ditolak.</p>
+<label>Kelas<select id="kelas"></select></label>
+<label>Kode kelas<input id="kode" autocomplete="off" autocapitalize="off"></label>
+<button id="cek">Lanjut</button>
+<label id="namaw" hidden>Nama<select id="nama"></select></label>
+<button id="mulai" hidden>Mulai belajar</button>
+<p id="lmsg" class="err"></p></div></section>
+<main id="app" hidden>
+<header><b>Belajar Python</b><nav id="nav"></nav><span id="who"></span></header>
+<div class="grid"><article id="left"></article>
+<section id="right">
+<div id="status">Memuat Python…</div>
+<textarea id="ed" spellcheck="false" autocapitalize="off" autocorrect="off" autocomplete="off" aria-label="Editor kode"></textarea>
+<div id="keys"></div>
+<label class="lbl">Input (satu baris untuk tiap input())</label>
+<textarea id="inp" rows="2" spellcheck="false" autocapitalize="off" autocorrect="off"></textarea>
+<div class="btns"><button id="run">Jalankan</button><button id="chk">Periksa</button><button id="stop" class="sec">Hentikan</button><button id="rst" class="sec">Reset kode</button></div>
+<pre id="out" aria-live="polite"></pre><div id="exp" hidden></div><div id="res"></div>
+</section></div></main>
+<script src="lessons.js"></script><script src="app.js"></script></body></html>
