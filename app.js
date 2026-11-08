@@ -1,5 +1,5 @@
 // ===== Pengaturan =====
-const APPS_SCRIPT_URL=''; // isi dengan URL Web App Apps Script (tahap 2). Kosong = mode demo.
+const APPS_SCRIPT_URL='https://script.google.com/macros/s/AKfycbzyongzTCpRvDIl9yyreM_ujSgSRbD3PRuW0q-1280vxqMrFvuPBRbctuUvhqbGBe4/exec';
 const KELAS=['XA','XB','XC','XD','XE','XF','XG','XH','XI','XJ'];
 const $=id=>document.getElementById(id);
 const LS=(k,v)=>{try{if(v===undefined)return JSON.parse(localStorage.getItem(k));localStorage.setItem(k,JSON.stringify(v))}catch(e){return null}};
