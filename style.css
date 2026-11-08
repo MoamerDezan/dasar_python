@@ -23,3 +23,4 @@ nav button{background:#fff;color:var(--ink);border:1px solid var(--line);padding
 #res{font-weight:700}#res.ok{color:var(--ok)}#res.no{color:var(--err)}
 #toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:#1d2a2a;color:#fff;padding:10px 18px;border-radius:6px;z-index:9}
 .hint{font-size:14px;color:var(--mut)}
+[hidden]{display:none!important}
